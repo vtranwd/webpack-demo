@@ -1,0 +1,53 @@
+# webpack-demo
+$ npm run build
+
+> webpack-demo@1.0.0 build /mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo
+> webpack
+
+assets by status 150 KiB [cached] 4 assets
+runtime modules 1.83 KiB 6 modules
+orphan modules 326 bytes [orphan] 1 module
+cacheable modules 543 KiB (javascript) 74.5 KiB (asset)
+  javascript modules 543 KiB
+    modules by path ./src/ 2.31 KiB 4 modules
+    modules by path ./node_modules/ 540 KiB
+      modules by path ./node_modules/css-loader/dist/runtime/*.js 2.38 KiB 2 modules
+      ./node_modules/lodash/lodash.js 531 KiB [built] [code generated]
+      ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js 6.67 KiB [built] [code generated]
+  asset modules 126 bytes (javascript) 74.5 KiB (asset)
+    ./src/icon.png 42 bytes (javascript) 74.5 KiB (asset) [built] [code generated]
+    ./src/my-font.woff2 42 bytes (javascript) 1 bytes (asset) [built] [code generated]
+    ./src/my-font.woff 42 bytes (javascript) 1 bytes (asset) [built] [code generated]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in ./src/data.csv
+Module build failed (from ./node_modules/xml-loader/index.js):
+Error: Non-whitespace before first tag.
+Line: 0
+Column: 2
+Char: t
+    at error (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/sax/lib/sax.js:651:10)
+    at strictFail (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/sax/lib/sax.js:677:7)
+    at beginWhiteSpace (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/sax/lib/sax.js:951:7)
+    at SAXParser.write (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/sax/lib/sax.js:1010:11)
+    at Parser.exports.Parser.Parser.parseString (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/xml2js/lib/parser.js:323:31)
+    at Parser.parseString (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/xml2js/lib/parser.js:5:59)
+    at exports.parseString (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/xml2js/lib/parser.js:369:19)
+    at Object.module.exports (/mnt/c/Users/murta/Desktop/VTLaptop/Work/Dev/projects/webpack-demo/node_modules/xml-loader/index.js:26:3)
+ @ ./src/index.js 5:0-31 21:16-21
+
+webpack 5.37.1 compiled with 1 error and 1 warning in 7225 ms
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpack-demo@1.0.0 build: `webpack`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpack-demo@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/vtranwd/.npm/_logs/2021-05-22T21_50_16_967Z-debug.log
