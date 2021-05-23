@@ -22,7 +22,7 @@ module.exports = {
             },
             {
                 test: /\.(csv|tsv)$/i,
-                use: ['xml-loader'],
+                use: ['csv-loader'],
             },
             {
                 test: /\.xml$/i,
