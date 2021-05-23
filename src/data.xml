@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
-    <to>Victor</to>
-    <from>Mayu</from>
-    <heading>Project Reminder</heading>
-    <body>Have prototype ready by Monday</body>
+	<to>Mayu</to>
+	<from>Victor</from>
+	<heading>Reminder</heading>
+	<body>Show prototype on Monday</body>
 </note>
